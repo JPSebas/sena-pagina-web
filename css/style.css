@@ -76,13 +76,13 @@ font-weight: bold;
 nav{
 width: 1000px;
 height: 70px;
-background: orange;
+background: orange; 
 float: left;
-padding: 0px 0px 10px 0px;
+padding: 0px 20px 10px 0px;
 }
 nav ul li{
 display: inline-block;
-margin: 0px 20px 0px 20px;
+margin: 0px 100px 0px 90px;
 }
 nav ul li a{
 color:white;
@@ -92,15 +92,15 @@ transition: 0.3s;
 }
 nav ul li a:hover{
 font-size: 26px;
-color:cyan;
+color:rgb(193, 241, 237);
 }
 nav ul li #contacto:hover{
 font-size: 25px;
-color: red;
+color:rgb(255, 237, 232);
 }
 nav ul li #inicio:hover{
 font-size: 25px;
-color: yellow;
+color: rgb(242, 246, 200);
 }
 /* -----  definimos secciones ---- */
 section, aside{
