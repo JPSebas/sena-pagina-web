@@ -1,9 +1,25 @@
 .contenedor_acceso {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    max-width: 100vw;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: column wrap;
 }
-
+.imagen_acceso img {
+    object-fit: cover;
+ object-position: center center;
+ max-width: 100%;
+ width: auto;
+ height: auto;
+}
+@supports(object-fit: cover){
+    .imagen_acceso  img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
 
 body{
 background: #E4FCFF;
