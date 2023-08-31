@@ -4,15 +4,16 @@
 
 <head>
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
-  <meta name="author" content="Uriel Casta�eda">
+  <meta name="author" content="Uriel Castañeda">
   <meta name="description" content="Pagina WEB Oferta CDAE Villeta">
   <meta name="keywords"
     content="Emprendimiento, Cursos SENA, ADSI, Programación 
         Hardware, Software, Mantenimiento hardware, Diseño web, Redes de datos
-        reparacion computadores, informótica bstemas, cursos complementarios, ofimatica, project, excel, inform�tica b�sica">
+        reparacion computadores, informática bstemas, cursos complementarios, ofimatica, project, excel, inform�tica b�sica">
   <title>Oferta educativa CDAE</title>
   <link rel="icon" href="imagenes/icono_web.png" type="image/png" sizes="20x20">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contacto.css">
 
 </head>
 
@@ -55,33 +56,79 @@
         <td colspan="1" rowspan="5" style="vertical-align: top; width: 419px;"><img style="width: 200px; height: 200px;"
             alt="Contactenos" src="imagenes/correo1c.jpg"><br>
         </td>
-        <td style="vertical-align: top; width: 561px;"><big><span style="font-weight: normal;"><big>Tus datos son muy
-                importantes para
-                nosotros y para poder conocer tus necesidades y deseos de estudio.<br>
+        <td style="vertical-align: top; width: 561px;">
+        
+          <div id="h">
+            <h1 id="ti">FORMULARIO DE CONTACTO</h1>
+            <form action="">
+                <input type="text" placeholder="Nombre" id="nombre" class="redondo" >
                 <br>
-                Te invitamos a diligenciar el formulario que encontrarás en el
-                siguiente enlace....<br>
-              </big></span></big><big><span style="font-weight: normal;"><big> </big>
-            </span></big> </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top; width: 561px; text-align: center;"><br>
+            
+                <br>
+                <input type="text"  placeholder="Apellido" id="apellido"  class="redondo">
+                <br>
+                <br>
+                <input type="number" placeholder="Numero de telefono" id="Numero"  class="redondo">
+                <br>
+                <br>
+                <input type="email" placeholder="Email" id="email"   class="redondo">
+                <br>
+                <br>
+                <input type="text" placeholder="Ciudad" id="Ciudad"  class="redondo">
+                <br>
+                <br>
+                
+                <select  name="curso"  class="redondo">
+                    <option>Programas de formacion</option>
+                    <option>Control de calidad de la industria de alimentos</option>
+                    <option>Gestión contable y de información financiera </option>
+                    <option class="op3">Implementación de infraestructura de tecnologías  de información y las comunicaciones</option>
+                    <option>Gestión comercial de negocios verdes</option>
+                    <option>Gestión administrativa </option>
+                    <option>Recursos humanos </option>
+                    <option >Asistencia administrativa </option>
+        
+        
+        
+        
+                </select>
+                <br>
+        
+                <br>
+                <br>
+        
+                
+                <textarea  style="font-family: Arial, Helvetica, sans-serif;" id="m" class="mensaje" cols="40" rows="10">Mensaje</textarea >
+        
+                <br>
+        
+                <p>Acepta los terminos y condiciones<input type="checkbox" id="aceptar"></p>
+                <br>
+                <br>
+                
+              
+              <a id="boton_enviar"  href="#" class="cta" type="submit" onclick='return enviomsg();' class="enviar" value="envio">
+                <span>Enviar</span>
+                <svg width="10px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+        
+            </form>
+            <br>
+            <br>
+            
+            <div id ='error'></div>
+        
+        </div>        
+        
+        
         </td>
       </tr>
-      <tr>
-        <td style="vertical-align: top; width: 561px; text-align: center;"><big><big
-              style="color: rgb(204, 0, 0);"><span style="font-weight: bold;">Formulario de contacto:<br></span>
-            </big><big style="font-weight: bold; color: rgb(255, 102, 0);"><a href="https://forms.gle/uTBcqts9myzf7Rx8A"
-                target="_blank">Cuéntanos en qué te podemos colaborar...</a> </big></big></td>
-      </tr>
-      <tr align="center">
-        <td style="vertical-align: top;"><br>
-        </td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top; width: 561px; text-align: center;"><br>
-        </td>
-      </tr>
+
+
+
     </tbody>
   </table>
 
